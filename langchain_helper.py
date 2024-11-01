@@ -61,6 +61,6 @@ def get_response_query(db,query,k=4):
     response=response_content.replace('\n', " ")
     return response,docs
     
-if __name__=='__main__':
-    db= create_vector_db_from_youtube_urls('https://www.youtube.com/watch?v=rfmpHjmMaXM')
-    print(get_response_query(db,'what i need for web development'))
+# if __name__=='__main__':
+#     db= create_vector_db_from_youtube_urls('https://www.youtube.com/watch?v=rfmpHjmMaXM')
+#     print(get_response_query(db,))
